@@ -1,0 +1,147 @@
+@media (max-width: 767px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  Apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} // end all elements
+
+
+/* --------------------------- BODY --------------------------- */
+body {
+    font-family: $defaultFont;
+    font-weight: $lightWeight;
+    min-width: 320px;
+}
+
+
+/* --------------------------- HEADER --------------------------- */
+#headerWrapper {
+    border-bottom: 1px solid $greyColor;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 50px auto 150px; 
+    column-gap: $gutter; 
+    align-items: center; 
+    padding: 0.5rem $gutter;
+  }
+  
+  header span {
+    font-size: 1.6rem;
+    font-weight: $lightWeight;
+    color: $primaryColor;
+  }
+  
+  
+  header .contact {
+    justify-self: end; 
+  }
+  
+  header .contact a {
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: $primaryColor; 
+    font-weight: bold;
+  }
+  
+  header .contact a:hover {
+    color: $secondaryColor; 
+    text-decoration: underline; 
+  } // end header
+
+
+/* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+#navWrapper {
+    background-color: $primaryColor;
+}
+
+ul{
+    padding: 0;
+    margin:  0 $gutter;
+}
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    color: $greyColor;
+    text-decoration: none;
+    display: block;
+    padding: .8rem $gutter;
+    
+}
+ul li.active a {
+    background-color: rgba(255,255,255,0.8 );
+    color: $primaryColor;
+    border-radius: 10px;
+    
+}
+
+
+
+/* --------------------------- MAIN --------------------------- */
+main {
+    h1 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $secondaryColor;
+        font-weight: $lightWeight
+    }
+    h2{
+    text-align: center;
+    color: $secondaryColor;
+    margin-top: 0;
+    padding: 10px;
+
+    }
+    .cards {
+      display: grid;
+      gap: 20px;
+      margin: 0 2vw;
+    }
+    .cards div{
+        background-color: $primaryColor;
+        border-radius: 15px;
+        margin-bottom: 25px;
+    }
+    .cards img {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        
+      }
+
+    
+
+//main stuff
+
+}// end main
+
+
+
+/* --------------------------- FOOTER --------------------------- */
+#footerWrapper {
+    background-color: $primaryColor
+} // end footer wrapper
+
+footer {
+    font-size: .85rem;
+    padding: 1rem $gutter;
+    color: $greyColor;
+    text-align: center;
+    line-height: $leading;
+    a {color: $greyColor;}
+}// end footer
