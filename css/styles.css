@@ -374,7 +374,7 @@ ul li {
 }
 
 ul li a {
-  color: #ccc;
+  color: #ffffff;
   text-decoration: none;
   display: block;
   padding: 0.8rem 10px;
@@ -390,7 +390,7 @@ ul li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 2rem;
-  color: #ffffff;
+  color: #077187;
   font-weight: 700;
 }
 main h2 {

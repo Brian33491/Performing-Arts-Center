@@ -76,7 +76,7 @@ ul li{
 }
 
 ul li a{
-    color: $greyColor;
+    color: $secondaryColor;
     text-decoration: none;
     display: block;
     padding: .8rem $gutter;
@@ -96,7 +96,7 @@ main {
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 2rem;
-        color: $secondaryColor;
+        color: $primaryColor;
         font-weight: $boldWeight
     }
     h2{
