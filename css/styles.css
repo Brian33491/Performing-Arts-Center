@@ -355,7 +355,7 @@ header .contact a {
 }
 
 header .contact a:hover {
-  color: #c8e2dd;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -390,12 +390,12 @@ ul li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 2rem;
-  color: #c8e2dd;
+  color: #ffffff;
   font-weight: 700;
 }
 main h2 {
   text-align: center;
-  color: #c8e2dd;
+  color: #ffffff;
   margin-top: 0;
   padding: 10px;
 }
