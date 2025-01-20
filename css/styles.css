@@ -355,7 +355,7 @@ header .contact a {
 }
 
 header .contact a:hover {
-  color: #ffffff;
+  color: #ccc;
   text-decoration: underline;
 }
 
